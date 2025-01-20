@@ -1,5 +1,5 @@
 ##
-
+```
 |--css (it contains frontend styles)
 |--public
 |-template.html (the email template the recruiter will see)
@@ -8,6 +8,7 @@
 |--scripts (frontend scripts i.e click, submit events)
 |-server.js (backend logic which actually sends the email when you submit from frontend)
 |-config.json (your values)
+```
 
 ### Before you start
 
@@ -31,9 +32,8 @@ Open the url to see the UI.
 Go to your codebase and double-click on index.html to open on your browser
 
 ### Config
-    ...
-
+```
   SENDER_EMAIL: 'email@domain.com', // your from email
   SENDER_EMAIL_3RD_PARTY_PASSWORD: 'xyz', // need to create 3rd party pass from your email portal (check how to do on on yahoo or gmail portal)
   PERSONAL_EMAIL:'email-copy@domain.com' // This will be used to send a copy/record of your activity. Use one of your personal email
-
+```
