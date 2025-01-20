@@ -1,0 +1,13 @@
+{
+  "PERSONAL_EMAIL": "email@domain.com",
+  "FIRST_NAME": "Name",
+  "POSITION": "Software Engineer",
+  "EMAIL_HOST": "smtp.mail.yahoo.com",
+  "EMAIL_SERVICE": "yahoo",
+  "EMAIL_SERVICE_PORT": 465,
+  "SENDER_EMAIL": "name@yahoo.com",
+  "SENDER_EMAIL_3RD_PARTY_PASSWORD": "abcxyz",
+  "RESUME_FILE_NAME": "First.Last_Resume",
+  "SENDER_FULL_NAME": "First Last",
+  "PORT": 3000
+}

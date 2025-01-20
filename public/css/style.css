@@ -1,0 +1,108 @@
+button,
+input {
+  padding: 5px 15px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #ff791b;
+  color: white;
+}
+body {
+  background-color: #247eee;
+  padding: 10px 40px;
+}
+form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    color: white;
+}
+.block {
+  margin-bottom: 20px;
+}
+.receiver {
+  margin-bottom: 20px;
+}
+.recruiters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+/* .recruiter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+} */
+.recruiter input {
+  margin-bottom: 5px;
+}
+.recruiter input:first-child {
+  /* grid-column: span 2; */
+  width: 300px;
+}
+
+#add {
+  background: #20b111;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  height: 400px;
+}
+
+.output {
+  padding: 40px;
+  background-color: #c8f0ff;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+.message-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.subject {
+  /* width: 100%; */
+}
+
+.submit-btn {
+  font-weight: 500;
+  padding: 10px 20px;
+  width: 100px;
+}
+
+.resumeOutput {
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid gray;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+button:disabled {
+  background: gray !important;
+  cursor: not-allowed;
+}
+
+hr {
+    background: white;
+    height: 1px;
+    border-color: white;
+    outline: none;
+    box-shadow: none;
+}

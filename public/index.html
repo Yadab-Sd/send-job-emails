@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Send for Job</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Send Email</h1>
+      <form id="formId">
+        <div class="receiver">
+          <label for="">Recruiters</label>
+          <div class="recruiters" id="recruitersId"></div>
+          <button type="button" id="add">Add</button>
+          <input type="file" id="file">Upload(xml)</input>
+
+        </div>
+        <div class="block message-area">
+          <input
+            name="subject"
+            placeholder="Subject"
+            id="subject"
+            class="subject"
+          />
+          <textarea name="message" id="message"></textarea>
+        </div>
+
+        <div class="resume block">
+          <input type="radio" name="resumeExtension" value="docx" checked />
+          docx
+          <input type="radio" name="resumeExtension" value="pdf" />
+          pdf
+        </div>
+
+        <button class="submit-btn" id="submit-btn">Submit</button>
+        <div>
+          <p id="error" class="error"></p>
+          <p id="success" class="success"></p>
+        </div>
+      </form>
+      <div class="output">
+        <b id="subjectOutput"></b>
+        <hr>
+        <div id="htmlOutput"></div>
+        <a href="" id="resumeOutput" class="resumeOutput" target="_blank"></a>
+      </div>
+    </div>
+  </body>
+</html>
